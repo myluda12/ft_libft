@@ -19,7 +19,8 @@
 # define MAX_INT 2147483647
 # define BUFFER_SIZE 90
 # define  M_PI 3.14
-# define rad(x) ((x * 2 * M_PI) / 180)
+# define rad(x) ((x * M_PI) / 180)
+# define deg(x) ((x * 360) / (2 * M_PI))
 
 int		get_next_line(int fd, char **line);
 int		ft_strdel(char **tmp, char **str, int num, int ret);
